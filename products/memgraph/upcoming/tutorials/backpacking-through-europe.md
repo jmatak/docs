@@ -12,6 +12,7 @@ We highly recommend checking out the other articles from this series:
   * [Exploring the European Road Network](exploring-the-european-road-network.md)
   * [Marvel Comic Universe Social Network](marvel-universe.md)
   * [Football Transfers](football-transfers.md)
+  * [Understanding music (with modules)](understanding-music-with-modules.md)
 
 ### Introduction
 

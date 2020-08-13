@@ -391,3 +391,4 @@ We recommend checking out other tutorials from this series:
   * [Graphing the Premier League](graphing-the-premier-league.md)
   * [Movie Recommendation System](movie-recommendation.md)
   * [Marvel Comic Universe Social Network](marvel-universe.md)
+  * [Understanding music (with modules)](understanding-music-with-modules.md)

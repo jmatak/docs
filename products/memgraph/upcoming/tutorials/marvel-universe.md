@@ -18,6 +18,7 @@ We highly recommend checking out the other articles from this series:
   * [Backpacking Through Europe](backpacking-through-europe.md)
   * [Movie Recommendation System](movie-recommendation.md)
   * [Football Transfers](football-transfers.md)
+  * [Understanding music (with modules)](understanding-music-with-modules.md)
 
 ### Data Model
 

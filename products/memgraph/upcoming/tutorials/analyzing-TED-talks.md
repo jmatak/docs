@@ -190,3 +190,4 @@ We recommend checking out other tutorials from this series:
   * [Movie Recommendation System](movie-recommendation.md)
   * [Marvel Comic Universe Social Network](marvel-universe.md)
   * [Football Transfers](football-transfers.md)
+  * [Understanding music (with modules)](understanding-music-with-modules.md)
