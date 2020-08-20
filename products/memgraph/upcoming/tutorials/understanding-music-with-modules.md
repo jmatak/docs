@@ -115,8 +115,7 @@ import mgp
 
 @mgp.read_proc
 def genre_count(context: mgp.ProcCtx,
-                genre: str
-                ) -> mgp.Record(genre=str, count=int):
+                genre: str) -> mgp.Record(genre=str, count=int):
     count = len(
         [v for v in context.graph.vertices if genre in v.properties['genres']])
     return mgp.Record(genre=genre, count=count)
@@ -327,8 +326,7 @@ def _get_communities(
         genre_count = defaultdict(lambda: 0)
         for genre in itertools.chain(
                 *[user.properties["genres"] for user in community]):
-            if genre != 'Pop':
-                genre_count[genre] += 1
+            genre_count[genre] += 1
 
         if len(genre_count) != 0:
             mpg = max(
@@ -376,7 +374,7 @@ def label_propagation_communities(
 ```
 
 In the above snippet, we can notice an optional argument `calculate_quality` and
-usage of the type `mgp.Any` which is provided by Memgraph.
+usage of the type `mgp.Map` which is provided by Memgraph.
 
 Let's see the results with:
 
